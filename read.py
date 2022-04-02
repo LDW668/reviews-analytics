@@ -19,3 +19,5 @@ for d in data:
 	if len(d) < 100:
 		new.append(d)
 print('總共有', len(new), '筆資料長度小於100')
+print(new[0])
+print(new[20])
