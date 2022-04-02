@@ -21,3 +21,11 @@ for d in data:
 print('總共有', len(new), '筆資料長度小於100')
 print(new[0])
 print(new[20])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('總共有', len(good), '筆資料裡有good字樣')
+print(good[100])
+
